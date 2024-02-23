@@ -1,5 +1,7 @@
 
 
+<script> alert("Hello, World!") </script>
+
 var greating = "Hello"; 
 
 var name = "5"; 
