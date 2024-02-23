@@ -52,7 +52,25 @@ A:hover {font-size:20pt; font-weight:bold; color: rgb(255, 0, 225);}
 .table-row {display: flex;}
 
 .link-cell,
-.description-cell {border: 1px solid #060606}
+.description-cell {border: 1px solid #060606} 
+
+
+body,html{height:100%;}
+nav{
+background-color: #f79F79;
+position: absolute;
+width: 150px;
+height: 100%;
+}
+nav a{
+padding: 15px;
+display: block;
+font-size: 25pt;
+color: #58355E;
+}
+nav a:hover{
+color: #f1f1f1;
+}
 
 
 
