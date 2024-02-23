@@ -3,3 +3,7 @@
 
 <button type="button">Click Me!</button>
 <button type="button" id="myButton">Click Me!</button>
+
+function myFunction(){
+alert("Hello!");
+}
