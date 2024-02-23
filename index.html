@@ -11,7 +11,23 @@
 
     <div onmouseover="mOver(this)" onmouseout="mOut(this)"
 style="width:120px;height:20px;padding:40px;">Mouse Over Here</div>
-<!-- “this” refers to the div -->
+<!-- “this” refers to the div --> 
+
+<nav>
+<a href="/apple/">apple</a> |
+<a href="/mango/">mango</a> |
+<a href="#orange/">orange</a> |
+<a href="#cherry/">cherry</a>
+</nav>
+
+    function mOver(some_tag) {
+some_tag.innerHTML = "Thank You”;
+some_tag.style.color = “blue”;
+}
+function mOut(element) {
+some_tag.innerHTML = "Mouse Over Me";
+some_tag.style.color = “orange”;
+}
 
 </head>
 <body>
