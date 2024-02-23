@@ -41,18 +41,18 @@ a:link {
 
     text-decoration: underline;}
     a:active {
-    color: darkcyan;}
-=======
-background-color:blueviolet;
-font: size 20px; } 
+    color: darkcyan;} 
 
-h1{ h1 { 
+A:link {text-decoration: underline; color: rgb(9, 12, 218)}
+A:visited {text-decoration: none; color: rgb(244, 135, 18);}
+A:active {text-decoration: underline overline}
+A:hover {font-size:20pt; font-weight:bold; color: rgb(255, 0, 225);}
 
-    color: rebeccapurple
-}
->>>>>>> ff9997082d3875dd2bb44c77f4ad238b7ab4756a
- 
+.table-container {display: flex;flex-direction: column;}
+.table-row {display: flex;}
 
+.link-cell,
+.description-cell {border: 1px solid #060606}
 
 
 
