@@ -42,7 +42,31 @@ function mUp(obj) {
     <html>
 <body>
 
-<h2 onclick="this.innerHTML='Ooops!'">Click on this text!</h2>
+<h2 onclick="this.innerHTML='You were right!'">Click me, maybe I do something?!</h2> 
+
+
+    <html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Name Prompt</title>
+</head>
+<body>
+
+<button onclick="promptForName()">Enter Your Name</button>
+<div id="output"></div>
+
+<script>
+function promptForName() {
+  var name = prompt("Please enter your name:");
+  var outputDiv = document.getElementById("output");
+  if (name != null && name != "") {
+    outputDiv.innerHTML = "Hello, " + name + "!";
+  } else {
+    outputDiv.innerHTML = "You did not enter your name.";
+  }
+}
+</script>
 
 </body>
 </html>
