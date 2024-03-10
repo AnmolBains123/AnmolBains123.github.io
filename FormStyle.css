@@ -1,1 +1,17 @@
-//: test
+body {
+    font-family: Timesnewroman, sans-serif;
+    font-size: 20pt;
+    background-color:Black; 
+   color:dimgrey; 
+   
+    
+    margin-top: 20pt;
+    margin-bottom: 20pt;
+    margin-left: 20pt;
+    margin-right: 20pt;
+}
+h1 { 
+font-family: 'Times New Roman';
+    color:cornflowerblue; 
+font-size: 50px; 
+} 
