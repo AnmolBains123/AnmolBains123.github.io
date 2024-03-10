@@ -1,6 +1,6 @@
 body {
     font-family: 'Times New Roman', Times, serif
-    font-size: 20pt;
+    font-size: 40pt;
     background-color:Grey;
    color:blue;
    
@@ -15,6 +15,19 @@ font-family: 'Times New Roman';
     color:Black;
 font-size: 75px; 
 } 
+h2{ 
+
+font-family:Georgia;
+color:rgb(112, 216, 230);
+font-size: 35px;
+} 
+
+h3{
+
+font-family: Verdana;
+color:rgb(2, 81, 2),   
+font-size: 25px;
+}
 
 
 
