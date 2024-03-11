@@ -13,20 +13,20 @@ body {
 h1 { 
 font-family: 'Times New Roman';
     color:Black;
-font-size: 50px; 
+font-size: 30px; 
 } 
 h2{ 
 
 font-family:Georgia;
     color:rgb(24, 124, 33);  
-font-size: 50px;
+font-size: 30px;
 } 
 
 h3{
 
 font-family: Verdana;
 color:rgb(25, 49, 67) ;
-font-size: 50px;
+font-size: 30px;
 }
 
 
@@ -34,7 +34,7 @@ h4{
 
 font-family: Verdana;
 color:rgb(215, 8, 8)   ;
-font-size: 50px;
+font-size: 30px;
 }
 
 
@@ -42,7 +42,7 @@ h5{
 
 font-family: Verdana;
 color:rgb(77, 8, 215)   ;
-font-size: 50px;
+font-size: 30px;
 }
 
 
