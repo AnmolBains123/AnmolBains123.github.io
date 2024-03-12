@@ -41,8 +41,16 @@ document.getElementById("emptyParagraph").innerHTML = "Your Input:
 
 
 localStorage.setItem("username", "ITM"); // store the items
+  localStorage.setItem('password', password);
 console.log(localStorage.getItem("username"));// → ITM
-localStorage.removeItem("username"); // remove from the localstorage
+localStorage.removeItem("username"); // remove from the localstorage 
+
+
+  alert("Form submitted successfully!");
+}
+</script>
+
+
 
 
 
